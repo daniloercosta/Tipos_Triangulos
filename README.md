@@ -46,10 +46,4 @@ Editar
 - .NET Core 3.1
 - C#
 
-## 📷 Ilustração
-
-![Ilustração do projeto](./Tipos_Triangulos.png)
-
----
-
 Feito com 💻 por Danilo.
