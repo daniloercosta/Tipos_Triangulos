@@ -1,31 +1,55 @@
-# 🔠 Detect Capital
+![Imagem do Projeto](projeto.png)
 
-Este é um projeto em C# que verifica se o uso de letras maiúsculas em uma palavra está correto. O programa segue três regras principais para considerar uma palavra válida:
+# Tipos de Triângulos
 
-1️⃣ Todas as letras são maiúsculas (exemplo: `"USA"`).  
-2️⃣ Todas as letras são minúsculas (exemplo: `"hello"`).  
-3️⃣ Apenas a primeira letra é maiúscula (exemplo: `"Hello"`).  
+Este projeto em C# tem como objetivo identificar o tipo de triângulo a partir de três valores informados pelo usuário. Ele classifica o triângulo com base em suas medidas, determinando se ele é:
 
-## 🚀 Como Funciona?
+- **Não forma triângulo** (quando não atende à condição triangular)
+- **Triângulo Retângulo**
+- **Triângulo Obtusângulo**
+- **Triângulo Acutângulo**
+- **Triângulo Equilátero**
+- **Triângulo Isósceles**
 
-A função `DetectCapitalUse(string word)` analisa a palavra fornecida e retorna `true` se a formatação estiver correta de acordo com as regras acima. Caso contrário, retorna `false`.
+## 🧮 Lógica de funcionamento
 
-## 📌 Exemplo de Uso
+O algoritmo segue os seguintes passos:
+1. Lê três valores do tipo `float`.
+2. Determina qual dos valores é o maior (para facilitar os cálculos de classificação).
+3. Verifica se os lados formam um triângulo.
+4. Classifica o triângulo conforme os ângulos:
+   - Retângulo
+   - Obtusângulo
+   - Acutângulo
+5. E depois conforme os lados:
+   - Equilátero
+   - Isósceles
 
-```csharp
-Solution solution = new Solution();
+## 💡 Exemplo de entrada e saída
 
-Console.WriteLine(solution.DetectCapitalUse("USA"));   // true
-Console.WriteLine(solution.DetectCapitalUse("FlaG"));  // false
-Console.WriteLine(solution.DetectCapitalUse("Hello")); // true
-Console.WriteLine(solution.DetectCapitalUse("java"));  // true
-```
+**Entrada:**
+7.0 5.0 7.0
 
-## 🛠️ Tecnologias Utilizadas
+makefile
+Copiar
+Editar
 
+**Saída:**
+TRIANGULO ACUTANGULO TRIANGULO ISOSCELES
+
+yaml
+Copiar
+Editar
+
+## 🛠️ Tecnologias
+
+- .NET Core 3.1
 - C#
-- .NET 5
 
-## 📜 Licença  
+## 📷 Ilustração
 
-Este projeto está sob a licença MIT. Sinta-se à vontade para usar e modificar.  
+![Ilustração do projeto](./Tipos_Triangulos.png)
+
+---
+
+Feito com 💻 por Danilo.
